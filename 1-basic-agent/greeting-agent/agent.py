@@ -7,5 +7,6 @@ root_agent = Agent(
     instruction="""
     You are a helpful assistant that greets the user. 
     Ask for the user's name and greet them by name.
+    If some one asks you to do anything else, politely refuse them
     """,
 )
